@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="container">
+      <div class="row">
+      <div class="column column-25">
+        {% include navigation.html %}
+      </div>
+      <div class="column">
+        <div class="row">
+          <div class="column">
+            <p>Hi, I'm <h2>Laurentiu</h2></p>
+          </div>
+          <div>
+            <img src="{{site.baseurl}}/assets/img/test_image.JPG">
+          </div>
+        </div>
+        {{ content }}
+      </div>
+      </div>
+    </div>
   </body>
 </html>

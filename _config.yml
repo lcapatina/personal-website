@@ -1,2 +1,3 @@
 plugins:
   - milligram
+  - jekyll-coffeescript

@@ -3,7 +3,7 @@
     <ul>
       {% for item in site.data.navigation %}
         <div class="row">
-          <li><a href="{{item.link}}" {% if page.url == item.link %}class="active" {% endif  %}>{{ item.name  }}</a></li>
+          <button class="buton button-clear" id="{{item.id}}">{{ item.name  }}</button>
         </div>
       {% endfor %}
     </ul>

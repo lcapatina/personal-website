@@ -1,4 +1,12 @@
 - name: Home
-  link: /
+  id: home-button
 - name: About Me
-  link: /about.html
+  id: aboutme-button
+- name: Education
+  id: education-button
+- name: Experience
+  id: experience-button
+- name: Skills
+  id: skills-button
+- name: Interests
+  id: interests-button

@@ -31,8 +31,20 @@
     height: 100vh;
 }
 
+#nav-bar-column {
+    position: relative;
+}
+
+#nav-bar-container {
+    position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 #container {
-    overflow: scroll;
+    overflow-y: auto;
+    position: relative;
 }
 
 .stop-scrolling {

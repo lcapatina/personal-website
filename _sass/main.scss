@@ -27,3 +27,15 @@
     color: #606c76;
 }
 
+#fullpage {
+    height: 100vh;
+}
+
+#container {
+    overflow: scroll;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }

@@ -1,0 +1,10 @@
+<h3 class="title">
+    Interests
+</h3>
+<ul>
+    {% for item in site.data.interests  %}
+        <li>
+        {{item.name}}
+        </li>
+    {% endfor  %}
+</ul>

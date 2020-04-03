@@ -2,10 +2,10 @@
   id: home-button
 - name: About Me
   id: aboutme-button
-- name: Education
-  id: education-button
 - name: Experience
   id: experience-button
+- name: Education
+  id: education-button
 - name: Skills
   id: skills-button
 - name: Interests

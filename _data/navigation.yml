@@ -6,7 +6,7 @@
   id: experience-button
 - name: Education
   id: education-button
-- name: Skills
-  id: skills-button
+- name: Languages
+  id: languages-button
 - name: Interests
   id: interests-button

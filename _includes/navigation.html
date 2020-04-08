@@ -1,15 +1,17 @@
 <div class="container" id="nav-bar-container">
-  <div class="navbar">
-    <ul id="cv-menu">
-      {% for item in site.data.navigation %}
-        <div class="row">
-          <button class="buton button-clear" id="{{item.id}}">{{ item.name  }}</button>
-        </div>
-      {% endfor %}
-        <div class="row">
-          <button class="icon"><i class="fa fa-bars"></i></button>
-        </div>
-    </ul>
+  <div class="row">
+    <div class="navbar column">
+      <ul id="cv-menu">
+        {% for item in site.data.navigation %}
+          <div class="row">
+            <button class="buton button-clear" id="{{item.id}}">{{ item.name  }}</button>
+          </div>
+        {% endfor %}
+          <div class="row">
+            <button class="buton button-clear icon" onclick="addResponsiveClass()"><img src="{{site.baseurl}}/assets/img/menu.png"/></button>
+          </div>
+      </ul>
+    </div>
   </div>
   <div class="row" id="contact-section">
     <div class="column">

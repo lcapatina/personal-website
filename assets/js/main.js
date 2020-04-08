@@ -5,3 +5,12 @@ Array.from(document.getElementById('cv-menu').children).forEach(element => {
     document.getElementById(sectionId).scrollIntoView();
   }
 });
+
+function addResponsiveClass() {
+  var x = document.getElementById("cv-menu");
+  if (x.className === "") {
+    x.className += " responsive";
+  } else {
+    x.className = "";
+  }
+}

@@ -2,23 +2,88 @@
     display: none;
 }
 
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar li {
+    float: left;
+    margin-bottom: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f5f6;
+}
+
+.navbar li a {
+    display: block;
+    color: #9b4dca;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 40% 0;
+}
+
+.education-section {
+    padding: 20% 0;
+}
+
+.languages-section {
+    padding: 30% 0;
+}
+
+#contact-section {
+    margin-top: 20%;
+}
+
+.contact-icon {
+    margin: auto;
+    width: 48px;
+    height: 48px;
+}
+
+.inner-selection {
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+}
+
+#nav-bar-container {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 @media (max-width: 40.0rem) {
-   /* .navbar ul {
-        display: none;
+
+  /*  #nav-bar-column {
+
     }*/
 
-    #cv-menu div button:not(:first-child) {display: none;}
+    .section {
+        padding: 0;
+    }
+
+    #cv-menu div button {display: none;}
     #cv-menu div button.icon {
     float: right;
     display: block;
   }
-    .navbar.responsive {position: relative;}
-    .navbar.responsive .icon {
+    #cv-menu.responsive {position: relative;}
+    #cv-menu.responsive div .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .navbar.responsive a {
+    #cv-menu.responsive div button {
       float: none;
       display: block;
       text-align: left;
@@ -26,46 +91,9 @@
 }
 
 @media (min-width: 40.0rem) {
-    .navbar {
-    margin-bottom: 10px;
-    }
+    
 
-    .navbar li {
-        float: left;
-        margin-bottom: 0;
-    }
-
-    .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #f4f5f6;
-    }
-
-    .navbar li a {
-        display: block;
-        color: #9b4dca;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    #contact-section {
-        margin-top: 20%;
-    }
-
-    .contact-icon {
-        margin: auto;
-        width: 48px;
-        height: 48px;
-    }
-
-    .inner-selection {
-        margin: 0 auto;
-        width: 300px;
-        height: 100px;
-    }
+    
 }
 
 #nav-bar-column {
@@ -75,13 +103,6 @@
 
 #fullpage {
     height: 100vh;
-}
-
-#nav-bar-container {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 #cv-container {
@@ -98,18 +119,6 @@
 
 .navbar li a:hover {
     color: #606c76;
-}
-
-.section {
-    padding: 40% 0;
-}
-
-.education-section {
-    padding: 20% 0;
-}
-
-.languages-section {
-    padding: 30% 0;
 }
 
 .education-card {

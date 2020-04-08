@@ -1,5 +1,5 @@
-<div class="container" id="nav-bar-container">
-  <div class="row">
+<div class="container" id="menu-container">
+  <div class="row" id="nav-bar-container">
     <div class="navbar column">
       <ul id="cv-menu">
         {% for item in site.data.navigation %}
@@ -7,10 +7,10 @@
             <button class="buton button-clear" id="{{item.id}}">{{ item.name  }}</button>
           </div>
         {% endfor %}
-          <div class="row">
-            <button class="buton button-clear icon" onclick="addResponsiveClass()"><img src="{{site.baseurl}}/assets/img/menu.png"/></button>
-          </div>
       </ul>
+      <div id="menu-div-button">
+        <button class="buton button-clear icon" onclick="addResponsiveClass()"><img src="{{site.baseurl}}/assets/img/menu.png"/></button>
+      </div>
     </div>
   </div>
   <div class="row" id="contact-section">

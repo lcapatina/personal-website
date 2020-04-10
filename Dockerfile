@@ -1,6 +1,5 @@
 FROM jekyll/jekyll:latest
-WORKDIR /app
-COPY . ./
+COPY --chown=jekyll:jekyll . ./
 RUN jekyll build
 EXPOSE 4000
 ENTRYPOINT ["jekyll", "serve", "--watch"]

@@ -1,5 +1,3 @@
-//#cv-menu div button.icon {
-//#menu-div-button button.icon {
 #menu-div-button {
     display: none;
 }
@@ -30,15 +28,23 @@
 }
 
 .section {
-    padding: 40% 0;
+    padding: 30% 0;
+}
+
+.aboutme-section {
+    padding: 25% 0;
 }
 
 .education-section {
-    padding: 20% 0;
+    padding: 0;
 }
 
 .languages-section {
-    padding: 30% 0;
+    padding: 20% 0;
+}
+
+.interests-section {
+    padding: 20% 0;
 }
 
 #contact-section {
@@ -66,24 +72,16 @@
 
 @media (max-width: 40.0rem) {
 
-  /*  #nav-bar-column {
-
-    }*/
-
     .section {
         padding-top: 0;
     }
 
     #cv-menu div button {display: none;}
-    //#cv-menu div button.icon {
-    //#menu-div-button button.icon {
     #menu-div-button {
     float: right;
     display: block;
   }
     #cv-menu.responsive {position: relative;}
-    //  #cv-menu.responsive div .icon {
-    //#menu-div-button .icon {
     #menu-div-button {
       position: absolute;
       right: 0;

@@ -1,0 +1,22 @@
+---
+layout: blog_default
+title: Lau's Blog
+permalink: /blog/
+---
+<div class="container" style="text-align: center;">
+    <h4 style>This is just a place where I try to synthetize my ideas</h4>
+</div>
+
+<div class="container" style="padding-top: 30px;">
+    <div class="row">
+        <div class="column">
+            <ul>
+                {% for post in site.posts %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

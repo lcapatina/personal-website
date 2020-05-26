@@ -1,7 +1,5 @@
-- name: Home
-  id: home-button
 - name: About Me
-  id: aboutme-button
+  id: home-button
 - name: Experience
   id: experience-button
 - name: Education

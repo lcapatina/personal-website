@@ -3,8 +3,16 @@ layout: blog_default
 ---
 <div class="row">
     <div class="column">
-        <h3>{{page.title}}</h3>
-        <p>{{ page.date | date_to_string }} - Written by {{ page.author }}</p>
-        {{content}}
+        <div class="row">
+            <div class="column">
+                <h3>{{page.title}}</h3>
+                <small>{{ page.date | date_to_string }} - Written by {{ page.author }}</small>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 40px;">
+            <div class="column">
+                {{content}}
+            </div>
+        </div>
     </div>
 </div>

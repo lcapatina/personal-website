@@ -11,3 +11,21 @@
 #blog-container {
     padding-top: 30px;
 }
+
+html, body {
+    height: 100%;
+}
+
+#fullpage {
+    min-height: 90%;
+}
+
+.post-section {
+    padding-right: 40%;
+    margin: 10px;
+}
+
+#section-footer {
+    padding: 40px;
+    text-align: center;
+}

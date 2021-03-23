@@ -9,24 +9,38 @@
         {% endfor %}
       </ul>
       <div id="menu-div-button">
-        <button class="buton button-clear icon" onclick="addResponsiveClass()"><img src="{{site.baseurl}}/assets/img/menu.png"/></button>
+        <button class="buton button-clear icon" onclick="addResponsiveClass()">
+          <picture>
+            <source srcset="{{site.baseurl}}/assets/img/menu.webp" type="image/webp">
+            <img src="{{site.baseurl}}/assets/img/menu.png" alt="description">
+          </picture>
+        </button>
       </div>
     </div>
   </div>
   <div class="row" id="contact-section">
     <div class="column">
       <a href="mailto:contact@laucapatina.com">
-        <img class="contact-icon" src="{{site.baseurl}}/assets/img/mail.png" />
+        <picture>
+          <source srcset="{{site.baseurl}}/assets/img/mail.webp" type="image/webp">
+          <img src="{{site.baseurl}}/assets/img/mail.png" alt="description">
+        </picture>
       </a>
     </div>
     <div class="column">
       <a href="https://linkedin.com/in/laurentiu-capatina-4094b332">
-        <img class="contact-icon" src="{{site.baseurl}}/assets/img/linkedin.png" />
+        <picture>
+          <source srcset="{{site.baseurl}}/assets/img/linkedin.webp" type="image/webp">
+          <img src="{{site.baseurl}}/assets/img/linkedin.png" alt="description">
+        </picture>
       </a>
     </div>
     <div class="column">
       <a href="https://github.com/lcapatina">
-        <img class="contact-icon" src="{{site.baseurl}}/assets/img/github.png" />
+        <picture>
+          <source srcset="{{site.baseurl}}/assets/img/github.webp" type="image/webp">
+          <img src="{{site.baseurl}}/assets/img/github.png" alt="description">
+        </picture>
       </a>
     </div>
   </div>
